@@ -11,12 +11,12 @@
 	</head>
 
 	<body>
-		<div class="mui-inner-wrap">
+		<div class="mui-inner-wrap" id="mb">
 
 			<header class="mui-bar mui-bar-nav">
 
 				<h1 class="mui-title">会员商城</h1>
-				<a class="mui-icon mui-icon-bars" id="hao-a"></a>
+				<a class="mui-icon mui-icon-bars" id="hao-a" href="#middlePopover"></a>
 			</header>
 			<div class="hao-box">
 				<div class="hao-box1">
@@ -300,18 +300,48 @@
 				</div>
 			</div>
 		</div>
+		<div id="middlePopover" class="mui-popover">
+
+			<div class="mui-scroll-wrapper">
+				<div class="mui-scroll">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							<a href="LOCATION.html"><span class="mui-icon mui-icon-image"></span></br>会员商城</a>
+						</li>
+						<li class="mui-table-view-cell">
+							<a href="MallSpace.html"><span class="mui-icon mui-icon-image"></span></br>商城空间</a>
+						</li>
+						<li class="mui-table-view-cell">
+							<a href="Member.html"><span class="mui-icon mui-icon-image"></span></br>会员下载</a>
+						</li>
+						<li class="mui-table-view-cell">
+							<a href="#"><span class="mui-icon mui-icon-image"></span></br>部门管理</a>
+						</li>
+						<li class="mui-table-view-cell">
+							<a href="#"><span class="mui-icon mui-icon-image"></span></br>发展图表</a>
+						</li>
+						<li class="mui-table-view-cell">
+							<a href="IntegralChart.html"><span class="mui-icon mui-icon-image"></span></br>积分图表</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="hao-wz" id="hao-close">
+				<a href="LOCATION.html"></a>
+			</div>
+		</div>
 	</body>
 
 </html>
 <script src="js/mui.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.1.js">
+</script>
 <script type="text/javascript">
 	mui.init()
-var a=document.getElementById("hao-a")
-a.onclick=function(){
-	var mask = mui.createMask(callback)
-	mask.show()
-}
-function callback(){
-	alert("aa")
-}
+	var close = document.getElementById("hao-close")
+
+	close.onclick = function() {
+
+	}
 </script>

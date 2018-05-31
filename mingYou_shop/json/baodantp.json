@@ -1,0 +1,252 @@
+{
+	"children": [
+		{
+			"children": [
+				{
+					"children": [
+						{
+							"children": [
+								{
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "镇代理"
+								}, {
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "副店长"
+								}
+							],
+							"name": "县代理"
+						}, {
+							"children": [
+								{
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "镇代理"
+								}, {
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "副店长"
+								}
+							],
+							"name": "正店长"
+						}
+					],
+					"name": "市代理"
+				}, {
+					"children": [
+						{
+							"children": [
+								{
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "镇代理"
+								}, {
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "副店长"
+								}
+							],
+							"name": "县代理"
+						}, {
+							"children": [
+								{
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "镇代理"
+								}, {
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "副店长"
+								}
+							],
+							"name": "正店长"
+						}
+					],
+					"name": "副总经理"
+				}
+			],
+			"name": "省代理"
+		}, {
+			"children": [
+				{
+					"children": [
+						{
+							"children": [
+								{
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "镇代理"
+								}, {
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "副店长"
+								}
+							],
+							"name": "县代理"
+						}, {
+							"children": [
+								{
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "镇代理"
+								}, {
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "副店长"
+								}
+							],
+							"name": "正店长"
+						}
+					],
+					"name": "市代理"
+				}, {
+					"children": [
+						{
+							"children": [
+								{
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "镇代理"
+								}, {
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "副店长"
+								}
+							],
+							"name": "县代理"
+						}, {
+							"children": [
+								{
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "镇代理"
+								}, {
+									"children": [
+										{
+											"children": [],
+											"name": "代理"
+										}, {
+											"children": [],
+											"name": "店员"
+										}
+									],
+									"name": "副店长"
+								}
+							],
+							"name": "正店长"
+						}
+					],
+					"name": "副总经理"
+				}
+			],
+			"name": "总经理"
+		}
+	],
+	"name": "普卡代理"
+}

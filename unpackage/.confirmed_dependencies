@@ -1,0 +1,45 @@
+{
+  "mingYou_shop/MallSpace.html": {
+    "resources": [
+      "mingYou_shop/js/mui.min.js",
+      "mingYou_shop/css/MallSpace.css",
+      "mingYou_shop/fonts/mui.ttf",
+      "mingYou_shop/css/mui.min.css",
+      "mingYou_shop/css/beas.css",
+      "mingYou_shop/js/mui.js",
+      "mingYou_shop/LOCATION.html"
+    ],
+    "refer": [
+      "mingYou_shop/LOCATION.html"
+    ]
+  },
+  "mingYou_shop/LOCATION.html": {
+    "resources": [
+      "mingYou_shop/js/mui.min.js",
+      "mingYou_shop/js/jquery-1.11.1.js",
+      "mingYou_shop/img/yuantiao.jpg",
+      "mingYou_shop/img/muwu.jpg",
+      "mingYou_shop/css/LOCATION.css",
+      "mingYou_shop/img/shuijiao.jpg",
+      "mingYou_shop/img/phon.jpg",
+      "mingYou_shop/img/cbd.jpg",
+      "mingYou_shop/IntegralChart.html"
+    ],
+    "refer": [
+      "mingYou_shop/IntegralChart.html"
+    ]
+  },
+  "mingYou_shop/IntegralChart.html": {
+    "resources": [
+      "mingYou_shop/json/baodantp.json",
+      "mingYou_shop/img/bj.png",
+      "mingYou_shop/js/11.js",
+      "mingYou_shop/css/IntegralChart.css",
+      "mingYou_shop/LOCATION.html",
+      "mingYou_shop/json/op.json"
+    ],
+    "refer": [
+      "mingYou_shop/LOCATION.html"
+    ]
+  }
+}

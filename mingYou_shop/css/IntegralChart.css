@@ -1,0 +1,36 @@
+.mui-icon-bars{
+	float: right;
+}
+
+
+.mui-table-view-cell.mui-collapse.mui-active .mui-collapse-content, .mui-table-view-cell.mui-collapse.mui-active .mui-table-view{
+	width: 100%!important;
+	height: 250px;
+	background: #FFFFFF;
+	
+}
+..mui-table-view-cell.mui-collapse .mui-collapse-content{
+	position: absolute;
+	left: 0!important;
+	top:0!important;
+	}
+#si{
+	position: relative;
+}
+#hao-a, #hao-a2{
+	background:url(../img/bj.png);
+	color: #666666;
+	font-size: 17px;
+}
+#hao-12{
+	margin-bottom: 10px;
+	background: #FFFFFF;
+	padding-right: 0px;
+}
+#man, #man2{
+	width: 330px;
+	height: 250px;
+}
+#hao-13{
+	padding-right: 0px;
+}

@@ -1626,9 +1626,9 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 }
 .mui-bar-tab .mui-tab-item .mui-icon
 {
-    top: 3px;
+    /*top: 3px;
 
-    width: 24px;
+    width: 24px;*/
     height: 24px;
     padding-top: 0;
     padding-bottom: 0;
@@ -2225,7 +2225,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
     position: absolute;
     right: 0;
     bottom: 0;
-    left: 15px;
+    /*left: 15px;*/
 
     height: 1px;
 
@@ -2259,7 +2259,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
     position: absolute;
     right: 0;
     bottom: 0;
-    left: 15px;
+   /* left: 15px;*/
 
     height: 1px;
 
@@ -2625,7 +2625,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 }
 .mui-table-view-cell.mui-collapse .mui-collapse-content
 {
-    position: relative;
+    position: fixed;
 
     display: none;
     overflow: hidden;
@@ -2637,7 +2637,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
          -o-transition: height .35s ease;
             transition: height .35s ease;
 
-    background: white;
+    background: #ccf7fe;
 }
 .mui-table-view-cell.mui-collapse .mui-collapse-content > .mui-input-group, .mui-table-view-cell.mui-collapse .mui-collapse-content > .mui-slider
 {
@@ -3653,6 +3653,7 @@ select:focus
 
     border-radius: 3px;
     background: #f7f7f7;
+    display: none;
 }
 .mui-popover .mui-popover-arrow.mui-bottom
 {

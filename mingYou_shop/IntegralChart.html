@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/beas.css" />
+		<link rel="stylesheet" type="text/css" href="css/IntegralChart.css" />
+	</head>
+
+	<body>
+		<div class="mui-inner-wrap hao-zt" id="uu">
+			<header class="mui-bar mui-bar-nav">
+
+				<h1 class="mui-title">积分图表</h1>
+				<a class="mui-icon mui-icon-arrowleft" href="LOCATION.html"></a>
+				<a class="mui-icon mui-icon-bars" href=""></a>
+			</header>
+		<li class="mui-table-view-cell mui-collapse" id="hao-12">
+				<a class="mui-navigate-right" href="#" id="hao-a">报单图谱</a>
+				<div class="mui-collapse-content" id="si">
+					<ul class="mui-table-view">
+						<div id="man">
+							
+						</div>
+						
+					</ul>
+				</div>
+			</li>
+			<li class="mui-table-view-cell mui-collapse" id="hao-13">
+				<a class="mui-navigate-right" href="#" id="hao-a2">公排图谱</a>
+				<div class="mui-collapse-content">
+					<ul class="mui-table-view">
+						<div id="man2">
+							
+						</div>
+						
+					</ul>
+				</div>
+			</li>
+		</div>
+	</body>
+
+</html>
+<script src="js/11.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/mui.js"></script>
+<script type="text/javascript">
+	mui.init()
+	 var myChart = echarts.init(document.getElementById('man'));
+	myChart.showLoading();
+	$.get('json/baodantp.json', function(data) {
+		myChart.hideLoading();
+
+		myChart.setOption(
+			option = {
+			tooltip: {
+				trigger: 'item',
+				triggerOn: 'mousemove'
+			},
+			series: [{
+				type: 'tree',
+
+				data: [data],
+
+				left: '3%',
+				right: '3%',
+				top: '8%',
+				bottom: '40%',
+
+				symbol: 'emptyCircle',
+
+				orient: 'vertical',
+
+				expandAndCollapse: true,
+
+				label: {
+					normal: {
+						position: 'top',
+						rotate: -0,
+						verticalAlign: 'middle',
+						align: 'right',
+						fontSize: 10
+					}
+				},
+
+				leaves: {
+					label: {
+						normal: {
+							position: 'bottom',
+							rotate: -90,
+							verticalAlign: 'middle',
+							align: 'left'
+						}
+					}
+				},
+
+				animationDurationUpdate: 750
+			}] 
+		});myChart.setOption(option);
+	});
+	  var myChart1 = echarts.init(document.getElementById('man2'));
+	myChart1.showLoading();
+	$.get('json/op.json', function(data) {
+		myChart1.hideLoading();
+
+		myChart1.setOption(
+			option = {
+			tooltip: {
+				trigger: 'item',
+				triggerOn: 'mousemove'
+			},
+			series: [{
+				type: 'tree',
+
+				data: [data],
+
+				left: '3%',
+				right: '3%',
+				top: '8%',
+				bottom: '40%',
+
+				symbol: 'emptyCircle',
+
+				orient: 'vertical',
+
+				expandAndCollapse: true,
+
+				label: {
+					normal: {
+						position: 'top',
+						rotate: -0,
+						verticalAlign: 'middle',
+						align: 'right',
+						fontSize: 10
+					}
+				},
+
+				leaves: {
+					label: {
+						normal: {
+							position: 'bottom',
+							rotate: -90,
+							verticalAlign: 'middle',
+							align: 'left'
+						}
+					}
+				},
+
+				animationDurationUpdate: 750
+			}] 
+		});myChart1.setOption(option);
+	});
+</script>
